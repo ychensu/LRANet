@@ -1,0 +1,17 @@
+imgaug
+kwarray
+lanms-proper
+lmdb
+matplotlib
+mmcv
+Polygon3
+pyclipper
+rapidfuzz
+regex
+scikit-image
+scipy
+shapely
+titlecase
+torch
+torchvision
+fvcore
