@@ -52,12 +52,12 @@ data
 
 ## Train
 ```
-CUDA_VISIBLE_DEVICES=0,1,2,3 ./tools/dist_train.sh config/lranet/lranet_totaltext_det.py work_dirs/totaltext_det 4
+CUDA_VISIBLE_DEVICES=0,1,2,3 ./tools/dist_train.sh configs/lranet/lranet_totaltext_det.py work_dirs/totaltext_det 4
 ```
 
 ## Evaluation
 ```
-CUDA_VISIBLE_DEVICES=0 python tools/test.py config/lranet/lranet_totaltext_det.py work_dirs/totaltext_det/latest.pth --eval hmean-e2e
+CUDA_VISIBLE_DEVICES=0 python tools/test.py configs/lranet/lranet_totaltext_det.py work_dirs/totaltext_det/latest.pth --eval hmean-e2e
 ```
 
 
