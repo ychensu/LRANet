@@ -6,7 +6,7 @@ from mmdet.core import multi_apply
 from mmdet.models.builder import HEADS, build_loss
 from mmocr.models.textdet.postprocess import lra_decode
 from mmocr.models.textdet.dense_heads.head_mixin import HeadMixin
-from ..postprocess.tps_decoder import  poly_nms
+from ..postprocess.lra_decoder import  poly_nms
 import math
 import numpy as np
 
