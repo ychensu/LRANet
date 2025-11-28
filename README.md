@@ -6,6 +6,9 @@
 
 This is the official implementation of Paper: [LRANet: Towards Accurate and Efficient Scene Text Detection with Low-Rank Approximation Network](https://arxiv.org/abs/2306.15142.pdf) (AAAI 2024 Oral).
 
+## News
+`2025.11.29` We release [LRANet++](https://github.com/ychensu/LRANet-PP), an extended version of LRANet for real-time text spotting.
+
 ## Environment
 This implementation is based on mmocr-0.2.1, so please refer to it for detailed requirements. Our code has been test with Pytorch-1.8.1 + cuda11.1
 We recommend using [Anaconda](https://www.anaconda.com/) to manage environments. Run the following commands to install dependencies.
